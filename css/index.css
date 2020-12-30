@@ -1,0 +1,32 @@
+body,
+html {
+  width: 384px;
+}
+
+.model__header, .model__body {
+  border-bottom: 0.5px solid #dadada;
+}
+
+.modle {
+  padding: 0 22px;
+}
+
+.model__title {
+  font-size: 14px;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.icon__link {
+  text-decoration: none;
+  padding: 15px;
+  border: 0.5px solid #ddd;
+  display: inline-block;
+  color: green;
+}
+/*# sourceMappingURL=index.css.map */

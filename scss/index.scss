@@ -1,0 +1,33 @@
+body,
+html {
+  width: 384px;
+}
+%borderBottom {
+  border-bottom: 0.5px solid #dadada;
+}
+
+.model__header {
+  @extend %borderBottom;
+}
+
+.model__body {
+  @extend %borderBottom;
+}
+.modle {
+  padding: 0 22px;
+}
+.model__title {
+  font-size: 14px;
+}
+
+.icon {
+  display: flex;
+  margin-bottom: 10px;
+}
+.icon__link {
+  text-decoration: none;
+  padding: 15px;
+  border: 0.5px solid #ddd;
+  display: inline-block;
+  color: green;
+}
